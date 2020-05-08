@@ -28,11 +28,5 @@
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3",
     "webpack-glob-folder-entries": "^1.0.0"
-  },
-  "dependencies": {
-    "html-webpack-plugin": "^4.3.0",
-    "nunjucks": "^3.2.1",
-    "nunjucks-html-loader": "^1.1.0",
-    "nunjucks-webpack-plugin": "^5.0.0"
   }
 }
