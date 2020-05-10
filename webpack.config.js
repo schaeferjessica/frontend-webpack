@@ -4,6 +4,7 @@ module.exports = {
   entry: ['./style.scss', './main.js'],
   output: {
     filename: 'bundle.js',
+    path: path.join(process.cwd(), '/'),
   },
   module: {
     rules: [
