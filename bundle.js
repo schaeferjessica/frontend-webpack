@@ -86,15 +86,15 @@
 /************************************************************************/
 /******/ ({
 
-/***/ "./js-components/footer.js":
-/*!*********************************!*\
-  !*** ./js-components/footer.js ***!
-  \*********************************/
-/*! exports provided: footer */
+/***/ "./js-components/intro.js":
+/*!********************************!*\
+  !*** ./js-components/intro.js ***!
+  \********************************/
+/*! exports provided: intro */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"footer\", function() { return footer; });\nvar footer = function footer() {\n  console.log('footer');\n};\n\n//# sourceURL=webpack:///./js-components/footer.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"intro\", function() { return intro; });\n// import { $, $$, closest, setAttributes, insertHTML } from './utils/helpers.js';\nvar intro = function intro() {\n  console.log('deine-klasse');\n};\n\n//# sourceURL=webpack:///./js-components/intro.js?");
 
 /***/ }),
 
@@ -106,7 +106,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_components_footer__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js-components/footer */ \"./js-components/footer.js\");\n\nObject(_js_components_footer__WEBPACK_IMPORTED_MODULE_0__[\"footer\"])();\n\n//# sourceURL=webpack:///./main.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _js_components_intro__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./js-components/intro */ \"./js-components/intro.js\");\n\nObject(_js_components_intro__WEBPACK_IMPORTED_MODULE_0__[\"intro\"])();\n\n//# sourceURL=webpack:///./main.js?");
 
 /***/ }),
 

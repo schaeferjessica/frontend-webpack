@@ -1,2 +1,2 @@
-import {footer} from './js-components/footer'
-footer()
+import {intro} from './js-components/intro'
+intro()
