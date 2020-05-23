@@ -1,2 +1,2 @@
-import {intro} from './js-components/intro'
-intro()
+import { intro } from './js-components/intro';
+intro();
