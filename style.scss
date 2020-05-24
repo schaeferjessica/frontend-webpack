@@ -1,12 +1,20 @@
+$font-stack: 'Roboto', sans-serif;
+$primary-color: #515151;
+
+// media query
+$xsmall: 600px;
+$small: 767px;
+$medium: 992px;
+$large: 1024px;
+$xlarge: 1199px;
+$max-width: 1440px;
+
 //fonts
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
-@import url("https://use.fontawesome.com/releases/v5.0.10/css/all.css");
+@import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
 
 //import scss_component
 @import 'scss-components/intro.scss';
-
-$font-stack: 'Roboto', sans-serif;
-$primary-color: #515151;
 
 html {
   box-sizing: border-box;
@@ -21,7 +29,7 @@ html {
 }
 
 body {
-	margin: 0;
+  margin: 0;
 }
 
 ul {
@@ -35,3 +43,14 @@ a {
   color: $primary-color;
 }
 
+button-reset {
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  background: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  border-radius: 0;
+}
